@@ -1,11 +1,9 @@
 package com.example;
 
 import com.example.handlers.EchoServerHandler;
+import com.example.handlers.EchoServerHandler2;
 import io.netty.bootstrap.ServerBootstrap;
-import io.netty.channel.Channel;
-import io.netty.channel.ChannelFuture;
-import io.netty.channel.ChannelInitializer;
-import io.netty.channel.EventLoopGroup;
+import io.netty.channel.*;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
@@ -30,23 +28,24 @@ public class EchoServer {
 
     private void start() throws InterruptedException {
         final EchoServerHandler serverHandler = new EchoServerHandler();
-        EventLoopGroup group = new NioEventLoopGroup();
+        NioEventLoopGroup group = new NioEventLoopGroup();
         try{
             ServerBootstrap b = new ServerBootstrap();
             b.group(group)
-                    .channel(NioServerSocketChannel.class)
+                    .channel(NioServerSocketChannel.class)//可在该类中查看bind,read等的方法的具体实现
                     .localAddress(new InetSocketAddress(port))
                     .childHandler(new ChannelInitializer<SocketChannel>() {
                         @Override
                         public void initChannel(SocketChannel ch) throws Exception {
+                            ch.pipeline().addLast(new EchoServerHandler2());
                             ch.pipeline().addLast(serverHandler);
                         }
                     });
-            ChannelFuture f = b.bind();
+            ChannelFuture f = b.bind();//会调用java.nio的selector.register和ServerSocketChannel.bind
             f.sync();
             Channel fc = f.channel();
             ChannelFuture fcf = fc.closeFuture();
-            fcf.sync();
+            fcf.sync();//会调用object.wait()方法，等待事件发生时调用notifyAll,用到同一个DefaultPromise实例
         }finally {
             group.shutdownGracefully().sync();
         }

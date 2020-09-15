@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f245274-5e1f-4630-9eb3-0f79c387627e" name="Default Changelist" comment="" />
+    <list default="true" id="5f245274-5e1f-4630-9eb3-0f79c387627e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/EchoServer/src/main/java/com/example/handlers/EchoServerHandler2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EchoServer/target/classes/com/example/handlers/EchoServerHandler2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EchoClient/src/main/java/org/example/EchoClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/EchoClient/src/main/java/org/example/EchoClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EchoClient/src/main/java/org/example/handlers/EchoClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/EchoClient/src/main/java/org/example/handlers/EchoClientHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EchoServer/EchoServer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/EchoServer/EchoServer.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EchoServer/src/main/java/com/example/EchoServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/EchoServer/src/main/java/com/example/EchoServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EchoServer/target/classes/com/example/EchoServer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/EchoServer/target/classes/com/example/EchoServer$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EchoServer/target/classes/com/example/EchoServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/EchoServer/target/classes/com/example/EchoServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EchoServer/target/classes/com/example/handlers/EchoServerHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/EchoServer/target/classes/com/example/handlers/EchoServerHandler.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +25,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -28,22 +43,74 @@
     </option>
   </component>
   <component name="ProjectId" id="1hVbIpyrSHhFQoMqhFFrQKYWlmD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/EchoServer" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.handlers" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.EchoServer">
+    <configuration name="EchoClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.EchoClient" />
+      <module name="EchoClient" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EchoServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.EchoServer" />
+      <module name="EchoServer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.EchoClient" />
+        <item itemvalue="Application.EchoServer" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",ALPHA_COMPARATOR,SHOW_INHERITED" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -55,21 +122,96 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600099129946</updated>
-      <workItem from="1600099131293" duration="335000" />
+      <workItem from="1600099131293" duration="870000" />
+      <workItem from="1600140407563" duration="13104000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="488" y="80" key="#com.intellij.ide.util.MemberChooser" timestamp="1600099461062">
+    <state x="275" y="23" key="#Project_Structure" timestamp="1600160432123">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="80" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1600099461062" />
+    <state x="275" y="23" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1600160432123" />
+    <state x="488" y="80" key="#com.intellij.ide.util.MemberChooser" timestamp="1600160171062">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="80" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1600160171062" />
+    <state x="463" y="54" key="FileChooserDialogImpl" timestamp="1600160385545">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="54" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1600160385545" />
+    <state width="1323" height="223" key="GridCell.Tab.0.bottom" timestamp="1600179155012">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1600179155012" />
+    <state width="1323" height="223" key="GridCell.Tab.0.center" timestamp="1600179155012">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1600179155012" />
+    <state width="1323" height="223" key="GridCell.Tab.0.left" timestamp="1600179155012">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1600179155012" />
+    <state width="1323" height="223" key="GridCell.Tab.0.right" timestamp="1600179155012">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1600179155012" />
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1600179155012">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1600179155012" />
+    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1600179155012">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1600179155012" />
+    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1600179155012">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1600179155012" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1600179155012">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1600179155012" />
+    <state x="323" y="62" key="NewModule_or_Project.wizard" timestamp="1600159412635">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="323" y="62" key="NewModule_or_Project.wizard/0.0.1366.728@0.0.1366.728" timestamp="1600159412635" />
+    <state x="163" y="0" key="SettingsEditor" timestamp="1600159451061">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1600159451061" />
+    <state x="363" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1600140408532">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="363" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1600140408532" />
+    <state x="234" y="100" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1600162783142">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="234" y="100" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1366.728@0.0.1366.728" timestamp="1600162783142" />
     <state x="57" y="59" key="new project wizard" timestamp="1600099183632">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="57" y="59" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1600099183632" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1600166243952">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1600166243952" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/EchoClient/src/main/java/org/example/handlers/EchoClientHandler.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

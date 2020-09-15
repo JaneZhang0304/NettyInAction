@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/EchoClient/EchoClient.iml" filepath="$PROJECT_DIR$/EchoClient/EchoClient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EchoServer/EchoServer.iml" filepath="$PROJECT_DIR$/EchoServer/EchoServer.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/ch2.iml" filepath="$PROJECT_DIR$/.idea/ch2.iml" />
     </modules>
   </component>
