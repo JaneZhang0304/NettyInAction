@@ -11,12 +11,14 @@ import io.netty.util.CharsetUtil;
 public class EchoClientHandler extends SimpleChannelInboundHandler<ByteBuf> {
     @Override
     public void channelActive(ChannelHandlerContext ctx) throws Exception {
+        System.out.println("CurrentThread: "+ Thread.currentThread().getName());
         System.out.println("channel Active======>");
         ctx.writeAndFlush(Unpooled.copiedBuffer("Netty rocks!", CharsetUtil.UTF_8));
     }
 
     @Override
     public void channelRead0(ChannelHandlerContext ctx, ByteBuf msg) throws Exception {
+        System.out.println("CurrentThread: "+ Thread.currentThread().getName());
         System.out.println("Client received: "+msg.toString(CharsetUtil.UTF_8));
     }
 
