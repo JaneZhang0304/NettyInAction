@@ -15,15 +15,18 @@ public class EchoServerHandler extends ChannelInboundHandlerAdapter {
         ByteBuf in = (ByteBuf)msg;
         System.out.println("CurrentThread: "+ Thread.currentThread().getName());
         System.out.println("Server received:"+in.toString(CharsetUtil.UTF_8));
-        ctx.write(in);//将接收到的消息写给发送者，而不冲刷出站消息
+        System.out.println("Server "+msg+" refCnt:"+in.refCnt());
+        ctx.write(in.copy());//怀疑报错时因为同一个ByteBuf被写了两遍
+
+        System.out.println("Server "+msg+" refCnt:"+in.refCnt());
     }
 
     @Override
     public void channelReadComplete(ChannelHandlerContext ctx) throws Exception {
         System.out.println("CurrentThread: "+ Thread.currentThread().getName());
         System.out.println("channelReadComplete====>");
-        ctx.writeAndFlush(Unpooled.EMPTY_BUFFER)
-                .addListener(ChannelFutureListener.CLOSE);
+//        ctx.writeAndFlush(Unpooled.EMPTY_BUFFER)
+//                .addListener(ChannelFutureListener.CLOSE);
     }
 
     @Override

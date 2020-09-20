@@ -10,22 +10,26 @@ import io.netty.util.CharsetUtil;
 
 @ChannelHandler.Sharable
 public class EchoServerHandler2 extends ChannelInboundHandlerAdapter {
+    ByteBuf msg1=null;
     @Override
     public void channelRead(ChannelHandlerContext ctx, Object msg) throws Exception {
         ByteBuf in = (ByteBuf)msg;
+        msg1=in;
         System.out.println("CurrentThread: "+ Thread.currentThread().getName());
         System.out.println("Server2 received:"+in.toString(CharsetUtil.UTF_8));
         ctx.write(in);//将接收到的消息写给发送者，而不冲刷出站消息
-        ctx.fireChannelRead(msg);
+        System.out.println("Server2 "+msg+"refCnt:"+in.refCnt());
+//        ctx.fireChannelRead(msg);
     }
 
     @Override
     public void channelReadComplete(ChannelHandlerContext ctx) throws Exception {
         System.out.println("CurrentThread: "+ Thread.currentThread().getName());
         System.out.println("channelReadComplete2====>");
-//        ctx.writeAndFlush(Unpooled.EMPTY_BUFFER)
-//                .addListener(ChannelFutureListener.CLOSE);
-        ctx.fireChannelReadComplete();
+        System.out.println("ServerComplete2 "+msg1+"refCnt:"+msg1.refCnt());
+        ctx.writeAndFlush(Unpooled.EMPTY_BUFFER)
+                .addListener(ChannelFutureListener.CLOSE);
+//        ctx.fireChannelReadComplete();
     }
 
     @Override

@@ -38,7 +38,7 @@ public class EchoServer {
                         @Override
                         public void initChannel(SocketChannel ch) throws Exception {
                             ch.pipeline().addLast(new EchoServerHandler2());
-                            ch.pipeline().addLast(serverHandler);
+//                            ch.pipeline().addLast(serverHandler);
                         }
                     });
             ChannelFuture f = b.bind();//会调用java.nio的selector.register和ServerSocketChannel.bind

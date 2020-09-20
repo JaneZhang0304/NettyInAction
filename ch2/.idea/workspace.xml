@@ -2,17 +2,47 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f245274-5e1f-4630-9eb3-0f79c387627e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/EchoServer/src/main/java/com/example/handlers/EchoServerHandler2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EchoServer/target/classes/com/example/handlers/EchoServerHandler2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch8/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch8/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch8/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch8/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch8/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch8/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch8/ch8.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch8/channelBootstrap/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch8/channelBootstrap/src/main/java/org/example/ChannelBootstrap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch8/datagramChannel/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch8/datagramChannel/src/main/java/org/example/DatagramChannel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch8/nioClient/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch8/nioClient/src/main/java/org/example/NioClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch9/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch9/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch9/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch9/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch9/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch9/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch9/ch9.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch9/embeddedChannel/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch9/embeddedChannel/src/main/java/org/example/MyEmbeddedChannel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch9/embeddedChannel/src/main/java/org/example/handler/AbsIntegerEncoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch9/embeddedChannel/src/main/java/org/example/handler/FixedLengthFrameDecoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch9/embeddedChannel/src/main/java/org/example/handler/FrameChunkDecoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch9/embeddedChannel/src/test/java/org/example/AbsIntegerEncoderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch9/embeddedChannel/src/test/java/org/example/FixedLengthFrameDecoderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch9/embeddedChannel/src/test/java/org/example/FrameChunkDecoderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch9/embeddedChannel/target/classes/org/example/MyEmbeddedChannel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch9/embeddedChannel/target/classes/org/example/handler/FixedLengthFrameDecoder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch9/embeddedChannel/target/test-classes/org/example/FixedLengthFrameDecoderTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ch9/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EchoClient/src/main/java/org/example/EchoClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/EchoClient/src/main/java/org/example/EchoClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EchoClient/src/main/java/org/example/handlers/EchoClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/EchoClient/src/main/java/org/example/handlers/EchoClientHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EchoServer/EchoServer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/EchoServer/EchoServer.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EchoServer/src/main/java/com/example/EchoServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/EchoServer/src/main/java/com/example/EchoServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EchoServer/src/main/java/com/example/handlers/EchoServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/EchoServer/src/main/java/com/example/handlers/EchoServerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EchoServer/src/main/java/com/example/handlers/EchoServerHandler2.java" beforeDir="false" afterPath="$PROJECT_DIR$/EchoServer/src/main/java/com/example/handlers/EchoServerHandler2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EchoServer/target/classes/com/example/EchoServer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/EchoServer/target/classes/com/example/EchoServer$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EchoServer/target/classes/com/example/EchoServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/EchoServer/target/classes/com/example/EchoServer.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EchoServer/target/classes/com/example/handlers/EchoServerHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/EchoServer/target/classes/com/example/handlers/EchoServerHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EchoServer/target/classes/com/example/handlers/EchoServerHandler2.class" beforeDir="false" afterPath="$PROJECT_DIR$/EchoServer/target/classes/com/example/handlers/EchoServerHandler2.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,8 +134,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.EchoClient" />
         <item itemvalue="Application.EchoServer" />
+        <item itemvalue="Application.EchoClient" />
       </list>
     </recent_temporary>
   </component>
@@ -123,7 +153,9 @@
       <option name="presentableId" value="Default" />
       <updated>1600099129946</updated>
       <workItem from="1600099131293" duration="870000" />
-      <workItem from="1600140407563" duration="13104000" />
+      <workItem from="1600140407563" duration="15394000" />
+      <workItem from="1600440627412" duration="3281000" />
+      <workItem from="1600597216885" duration="4694000" />
     </task>
     <servers />
   </component>
@@ -138,46 +170,46 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="23" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1600160432123" />
-    <state x="488" y="80" key="#com.intellij.ide.util.MemberChooser" timestamp="1600160171062">
+    <state x="488" y="80" key="#com.intellij.ide.util.MemberChooser" timestamp="1600441989101">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="80" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1600160171062" />
+    <state x="488" y="80" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1600441989101" />
     <state x="463" y="54" key="FileChooserDialogImpl" timestamp="1600160385545">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="54" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1600160385545" />
-    <state width="1323" height="223" key="GridCell.Tab.0.bottom" timestamp="1600179155012">
+    <state width="1323" height="254" key="GridCell.Tab.0.bottom" timestamp="1600598589603">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1600179155012" />
-    <state width="1323" height="223" key="GridCell.Tab.0.center" timestamp="1600179155012">
+    <state width="1323" height="254" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1600598589603" />
+    <state width="1323" height="254" key="GridCell.Tab.0.center" timestamp="1600598589602">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1600179155012" />
-    <state width="1323" height="223" key="GridCell.Tab.0.left" timestamp="1600179155012">
+    <state width="1323" height="254" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1600598589602" />
+    <state width="1323" height="254" key="GridCell.Tab.0.left" timestamp="1600598589602">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1600179155012" />
-    <state width="1323" height="223" key="GridCell.Tab.0.right" timestamp="1600179155012">
+    <state width="1323" height="254" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1600598589602" />
+    <state width="1323" height="254" key="GridCell.Tab.0.right" timestamp="1600598589603">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1600179155012" />
-    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1600179155012">
+    <state width="1323" height="254" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1600598589603" />
+    <state width="1323" height="254" key="GridCell.Tab.1.bottom" timestamp="1600598589603">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1600179155012" />
-    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1600179155012">
+    <state width="1323" height="254" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1600598589603" />
+    <state width="1323" height="254" key="GridCell.Tab.1.center" timestamp="1600598589603">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1600179155012" />
-    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1600179155012">
+    <state width="1323" height="254" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1600598589603" />
+    <state width="1323" height="254" key="GridCell.Tab.1.left" timestamp="1600598589603">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1600179155012" />
-    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1600179155012">
+    <state width="1323" height="254" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1600598589603" />
+    <state width="1323" height="254" key="GridCell.Tab.1.right" timestamp="1600598589603">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1600179155012" />
+    <state width="1323" height="254" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1600598589603" />
     <state x="323" y="62" key="NewModule_or_Project.wizard" timestamp="1600159412635">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -186,10 +218,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1600159451061" />
-    <state x="363" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1600140408532">
+    <state width="691" height="372" key="XDebugger.FullValuePopup" timestamp="1600597674425">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="363" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1600140408532" />
+    <state width="691" height="372" key="XDebugger.FullValuePopup/0.0.1366.728@0.0.1366.728" timestamp="1600597674425" />
+    <state x="363" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1600440626403">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="363" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1600440626403" />
     <state x="234" y="100" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1600162783142">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -198,20 +234,53 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="57" y="59" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1600099183632" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1600166243952">
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1600600428206">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1600166243952" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1600600428206" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/EchoClient/src/main/java/org/example/handlers/EchoClientHandler.java</url>
-          <line>24</line>
+          <line>26</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/EchoServer/src/main/java/com/example/handlers/EchoServerHandler2.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/EchoServer/src/main/java/com/example/handlers/EchoServerHandler2.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.12.Final/netty-all-4.1.12.Final-sources.jar!/io/netty/buffer/AbstractReferenceCountedByteBuf.java</url>
+          <line>98</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/EchoServer/src/main/java/com/example/handlers/EchoServerHandler.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/EchoServer/src/main/java/com/example/handlers/EchoServerHandler2.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/EchoServer/src/main/java/com/example/handlers/EchoServerHandler.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
       </breakpoints>
+      <breakpoints-defaults>
+        <breakpoint suspend="THREAD" type="java-line" />
+      </breakpoints-defaults>
     </breakpoint-manager>
   </component>
 </project>

@@ -27,4 +27,28 @@ public class EchoClientHandler extends SimpleChannelInboundHandler<ByteBuf> {
         cause.printStackTrace();
         ctx.close();
     }
+
+    @Override
+    public void channelRegistered(ChannelHandlerContext ctx) throws Exception {
+        System.out.println("channelRegistered=====>");
+        super.channelRegistered(ctx);
+    }
+
+    @Override
+    public void channelInactive(ChannelHandlerContext ctx) throws Exception {
+        System.out.println("channelInactive===>");
+        super.channelInactive(ctx);
+    }
+
+    @Override
+    public void channelUnregistered(ChannelHandlerContext ctx) throws Exception {
+        System.out.println("channelUnregistered====>");
+        super.channelUnregistered(ctx);
+    }
+
+    @Override
+    public void userEventTriggered(ChannelHandlerContext ctx, Object evt) throws Exception {
+        System.out.println("userEventTriggered===>");
+        super.userEventTriggered(ctx, evt);
+    }
 }
